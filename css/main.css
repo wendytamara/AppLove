@@ -71,3 +71,146 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+a{ /*se da formato a nav*/
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #000;
+  position: relative;
+  left: 150px;
+  padding: 22px;
+  display: inline-block;
+
+}
+body{
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.logo{ /*se da formato*/
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 400px;
+  display: inline-block;
+}
+header{ /*se la ubicacion horizontal*/
+  display: inline;
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  width: 100%;
+}
+.part-one{ /*inserta imagen de fondo y se le formato*/
+  background-image: url("../assets/images/bg-home.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  color: #fff;
+  padding: 80px;
+}
+
+.principal{ /*se le tamaño a parrafo*/
+padding-top: 40px;
+}
+.part-one h2{ /*se le tamaño a parrafo*/
+ font-size: 25px
+
+}
+.part-one h1{ /*se le tamaño a parrafo*/
+  font-size: 35px;
+}
+.part-one p{ /*se le tamaño a parrafo*/
+  line-height: 0px;
+  font-size: 12px;
+}
+
+button{ /*se le da formato y ubicacion al boton*/
+  border: 1px solid black;
+  background-color: green;
+  color: #fff;
+  height: 35px;
+  margin-top: 90px;
+
+}
+
+.part-two{ /*se le color al fondo y formato*/
+  background-color: #db664a;
+  color: #fff;
+  padding-top: 15px;
+  text-align: center;
+  height: 600px;
+}
+.title{ /*se le tamaño al texto*/
+  font-size: 40px;
+  padding-right: 20px;
+}
+
+.part-two h2{ /*se le tamaño al texto*/
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.part-two h4{ /*se le tamaño al texto*/
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.part-two .imgOne, .imgTwo, .imgThree { /*se da formato a las imagenes y posicion*/
+     float: left;
+     margin-top: 90px;
+     width: 33%;
+     box-sizing: border-box;
+     font-size: 16px;
+     line-height: 0px;
+}
+
+.part-two img{ /*se da tamaño a las imagenes*/
+
+  width: 180px;
+  height:180px;
+}
+
+.part-three{ /* se centra el texto*/
+   text-align: center;
+    height: 2000px;
+    width: 100%;
+}
+.part-three h2{ /*se da tamaño al texto*/
+  font-size: 40px;
+}
+
+.img-computer{ /*se da tamaño a la imagen*/
+  background-size: 100% 100%;
+  width: 70%;
+  height: 700px;
+}
+.bloq-img-one img{
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+
+
+}
+
+.bloq-img-one div{ /* se coloca float al contenedor para que se alinien a la izquierda*/
+  float: left;
+
+}
+.bloq-img-one{
+    margin-left: 12%;
+}
+
+footer{ /*se le da formato y posicion*/
+  background-color: gray;
+  text-align: center;
+  height: 50px;
+  color: #fff;
+  box-sizing: border-box;
+  padding-top: 1px;
+}
+
+.bloq-img-one div p{
+  line-height: 0px;
+}
