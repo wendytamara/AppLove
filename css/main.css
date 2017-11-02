@@ -19,6 +19,7 @@ body {
 
 img {
   vertical-align: middle;
+  width: 70%;
 }
 
 .container {
@@ -72,11 +73,10 @@ a:hover {
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
 a{ /*se da formato a nav*/
-  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color: #000;
   position: relative;
-  left: 150px;
+  left: 7%;
   padding: 22px;
   display: inline-block;
 
@@ -84,13 +84,13 @@ a{ /*se da formato a nav*/
 body{
   padding:0px;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo{ /*se da formato*/
-  width: 70px;
-  height: 70px;
+  width: 7%;
   position: relative;
-  left: 400px;
+  left: 50%;
   display: inline-block;
 }
 header{ /*se la ubicacion horizontal*/
@@ -109,6 +109,7 @@ header{ /*se la ubicacion horizontal*/
   color: #fff;
   padding: 80px;
 }
+
 
 .principal{ /*se le tamaño a parrafo*/
 padding-top: 40px;
@@ -165,14 +166,13 @@ button{ /*se le da formato y ubicacion al boton*/
 }
 
 .part-two img{ /*se da tamaño a las imagenes*/
+  width: 45%;
 
-  width: 180px;
-  height:180px;
 }
 
 .part-three{ /* se centra el texto*/
    text-align: center;
-    height: 2000px;
+    /*height: 2000px;*/
     width: 100%;
 }
 .part-three h2{ /*se da tamaño al texto*/
@@ -185,13 +185,11 @@ button{ /*se le da formato y ubicacion al boton*/
   height: 700px;
 }
 .bloq-img-one img{
-  width: 300px;
+  width: 250px;
   height: 250px;
   display: inline-block;
   margin: 20px;
   padding: 10px;
-
-
 }
 
 .bloq-img-one div{ /* se coloca float al contenedor para que se alinien a la izquierda*/
